@@ -1,14 +1,24 @@
 package com.array;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
 public class Demo {
 	public static void main(String[] args) {
-		List<Integer> list = Arrays.asList(1,3,1,2,3,4,5,6);
-		List<Integer> result = list.stream().distinct().collect(Collectors.toList());
-		System.out.println(result);
+		
+		
+		
+		String name1="rohit";
+		String name2="rohit";
+		System.out.println(name1.hashCode());
+		System.out.println(name2.hashCode());
+		
+		System.out.println(name1==name2);
+		String str1 = new String("rohit");
+		String str2 = new String("rohit");
+
+		System.out.println(str1.hashCode());
+		System.out.println(str2.hashCode());
+
+	
+		
 	}
 
 }

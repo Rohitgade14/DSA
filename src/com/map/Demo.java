@@ -10,7 +10,7 @@ public class Demo {
 		map.put("A", 1);
 		map.put("B", 2);
 		map.put("A", 3);
-		System.out.println(map.get("A"));
+		System.out.println(map.get("A")); // it will get latest
 
 	}
 

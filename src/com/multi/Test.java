@@ -7,9 +7,6 @@ public class Test  extends Thread{
 		test.start();
 		
 	}
-	
-	
-	
 	public void run() {
 		System.out.println("run method get call");
 	}
